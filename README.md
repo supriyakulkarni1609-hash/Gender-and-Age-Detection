@@ -92,4 +92,4 @@ python detect_webcam_single.py
 
 ## Author
 
-**Supriya Kulkarni[Intern ID : SMI82128]**
+**Supriya Kulkarni [Intern ID : SMI82128]**
