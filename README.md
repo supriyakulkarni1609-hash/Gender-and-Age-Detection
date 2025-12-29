@@ -8,14 +8,12 @@ input and predicts the gender and age range of the detected person.
 The project is designed for beginners and focuses on inference using pretrained
 models rather than training from scratch.
 
----
 
 ## Technologies Used
 - Python
 - OpenCV
 - Deep Learning (Pretrained CNN models)
 
----
 
 ## Features
 - Face detection using OpenCV DNN module
@@ -25,7 +23,6 @@ models rather than training from scratch.
 - Webcam-based detection (single frame capture)
 - Visualized results on image
 
----
 
 ## Modifications & Contributions
 The original implementation was adapted and modified to suit internship task
@@ -41,7 +38,6 @@ requirements. The following changes were made:
 These changes focus on understanding, integration, and correct execution of
 pretrained models rather than model training.
 
----
 
 ## Project Structure
 ```
@@ -100,4 +96,4 @@ python detect_webcam_single.py
 
 ## Author
 
-Supriya Kulkarni
+**Supriya Kulkarni**
