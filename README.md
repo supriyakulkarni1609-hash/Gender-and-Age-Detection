@@ -66,7 +66,6 @@ Place the image inside the project folder or `sample_images` directory and run:
 python detect.py --image sample_images/woman1.jpg
 ```
 
----
 
 ## How to Run (Webcam Input)
 
@@ -76,7 +75,6 @@ This captures a single frame from the webcam and predicts gender and age once:
 python detect_webcam_single.py
 ```
 
----
 
 ## Output
 
@@ -84,7 +82,6 @@ python detect_webcam_single.py
 * Predicted gender and age range are displayed on the image
 * Output is shown once (no continuous looping)
 
----
 
 ## Notes
 
@@ -92,7 +89,6 @@ python detect_webcam_single.py
 * Accuracy depends on image quality and lighting conditions
 * No model training is performed
 
----
 
 ## Author
 
