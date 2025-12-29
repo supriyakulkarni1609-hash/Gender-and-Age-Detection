@@ -27,6 +27,22 @@ models rather than training from scratch.
 
 ---
 
+## Modifications & Contributions
+The original implementation was adapted and modified to suit internship task
+requirements. The following changes were made:
+
+- Modified the code to support **static image input** instead of continuous
+  webcam feed
+- Removed infinite loops to ensure **single-pass execution**
+- Implemented **single-frame webcam capture** to avoid recurring outputs
+- Improved code structure for clarity and easier execution
+- Tested the system on provided sample images and generated output results
+
+These changes focus on understanding, integration, and correct execution of
+pretrained models rather than model training.
+
+---
+
 ## Project Structure
 ```
 
@@ -36,9 +52,7 @@ Gender-and-Age-Detection/
 ├── detect_webcam_single.py      # Webcam single-frame detection
 │
 ├── age_deploy.prototxt
-├── age_net.caffemodel
 ├── gender_deploy.prototxt
-├── gender_net.caffemodel
 ├── opencv_face_detector.pb
 ├── opencv_face_detector.pbtxt
 │
@@ -47,17 +61,6 @@ Gender-and-Age-Detection/
 └── README.md
 
 ````
-
----
-
-## Installation
-Install required Python libraries using:
-
-```bash
-pip install -r requirements.txt
-````
-
----
 
 ## How to Run (Image Input)
 
